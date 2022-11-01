@@ -1,6 +1,6 @@
 // typed js
 const typed = new Typed(".typing", {
-  strings: ["Software Developer", "Pythonista", "Youtuber", "Web Developer"],
+  strings: ["Developer", "Python Newbie", "Web Developer"],
   loop: true,
   typeSpeed: 80,
   backSpeed: 40,
@@ -10,16 +10,10 @@ const typed = new Typed(".typing", {
 const themes = [
   "#9affe1",
   "#abff9a",
-  "#ff9a9a",
-  "#f5ff9a",
   "#9aadff",
-  "#ffd280",
-  "#adff6b",
   "#6bfaff",
   "#55F7DD",
-  "#7BF774",
   "#F770F4",
-  "#E2F780",
 ];
 const root = document.querySelector(":root");
 const themeToggle = document.querySelector("#main-name");
